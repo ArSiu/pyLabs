@@ -1,12 +1,19 @@
 # Run
-```
+
 [1]copy repository
+```
 $ git clone https://github.com/ArSiu/pyLabs.git
+```
 [1.1]go to directory pyLabs
+```
 $cd pyLabs
+```
 [2]change branch to lab1
+```
 $ git checkout lab1
+```
 [3]type in console
+```
 $python3 main.py
 ```
 # Wanna Use Code In Your Own
