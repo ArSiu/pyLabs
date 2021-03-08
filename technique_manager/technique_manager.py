@@ -1,4 +1,4 @@
-from Technique import Technique
+from technique.technique import Technique
 
 
 class TechniqueManager:

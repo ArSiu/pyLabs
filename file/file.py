@@ -8,6 +8,6 @@ class Type(Enum):
 
 
 class File:
-    def __init__(self, type: Type, name: str = 0):
+    def __init__(self, type: Type = None, name: str = " "):
         self.type = type
         self.name = name

@@ -1,9 +1,9 @@
-from test import Test_technique
+from example import example_technique
 
 
 def main():
-    objtest = Test_technique()
-    objtest.main()
+    example = example_technique()
+    example.start()
 
 
 if __name__ == '__main__':

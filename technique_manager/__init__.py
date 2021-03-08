@@ -1,0 +1,1 @@
+from technique_manager.technique_manager import TechniqueManager
