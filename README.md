@@ -38,3 +38,5 @@ tech_manager = TechniqueManager([
 ### The code should be filled in a separate repository, having previously created a pull request
 ### (ie the code should be written in a separate branch on its basis to make a pull request)
 ### To test the operation of your code, you need to create a separate class in which the main method will be located
+# Test Coverage
+![image](https://user-images.githubusercontent.com/33807305/111920696-0eed6380-8a99-11eb-948e-bd36261d308c.png)
