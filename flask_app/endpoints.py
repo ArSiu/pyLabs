@@ -50,8 +50,14 @@ def technique_update(id):
         })
         abort(404, response)
     try:
-        technique = technique_schema.load(request.json)
-        db.session.add(technique)
+        techniquet = technique_schema.load(request.json)
+        technique.name = techniquet.name
+        technique.model = techniquet.model
+        technique.manufactory_company = techniquet.manufactory_company
+        technique.year_of_manufacture = techniquet.year_of_manufacture
+        technique.price = techniquet.price
+        technique.input_voltage = techniquet.input_voltage
+        technique.watts = techniquet.watts
     except ValidationError as err:
         abort(400, err)
     db.session.commit()
